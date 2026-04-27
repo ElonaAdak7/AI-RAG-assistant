@@ -22,5 +22,6 @@ This project is an AI-powered assistant for business documents. It allows users 
 ### 3. Run API
 - uvicorn app:app --reload
 
-### 4. Open UI
-- http://127.0.0.1:8000/docs
+### 4. Access API Documentation (Swagger UI)
+- After running the FastAPI server locally, the API documentation can be accessed via Swagger UI, which provides an interactive interface to test the endpoints such as document-based question answering.
+- The `/ask` endpoint can be tested directly from this interface by providing natural language queries related to uploaded business documents.
